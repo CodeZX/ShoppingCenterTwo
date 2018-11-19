@@ -7,14 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C7A7F52219D0BA5000F6C3E /* TJ_CustomLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7A7F51219D0BA5000F6C3E /* TJ_CustomLabel.m */; };
+		3C7A7F57219D3F5C000F6C3E /* icon_user.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C7A7F54219D3F5C000F6C3E /* icon_user.png */; };
+		3C7A7F58219D3F5C000F6C3E /* icon_user@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C7A7F55219D3F5C000F6C3E /* icon_user@3x.png */; };
+		3C7A7F59219D3F5C000F6C3E /* icon_user@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C7A7F56219D3F5C000F6C3E /* icon_user@2x.png */; };
+		3C7A7F5D219D3FBC000F6C3E /* icon_password@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C7A7F5A219D3FBB000F6C3E /* icon_password@3x.png */; };
+		3C7A7F5E219D3FBC000F6C3E /* icon_password.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C7A7F5B219D3FBB000F6C3E /* icon_password.png */; };
+		3C7A7F5F219D3FBC000F6C3E /* icon_password@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C7A7F5C219D3FBB000F6C3E /* icon_password@2x.png */; };
+		3C7A7F63219D48CE000F6C3E /* MBProgressHUD+Nero.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7A7F62219D48CE000F6C3E /* MBProgressHUD+Nero.m */; };
+		3C7A7F66219D77BA000F6C3E /* TJ_VerificationCodeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7A7F65219D77BA000F6C3E /* TJ_VerificationCodeButton.m */; };
+		3C7A7F69219E5C7C000F6C3E /* TJ_ClauseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7A7F68219E5C7C000F6C3E /* TJ_ClauseViewController.m */; };
+		3C7A7F6C219E61CF000F6C3E /* TJ_RetrievePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7A7F6B219E61CF000F6C3E /* TJ_RetrievePasswordViewController.m */; };
+		3C86CAE1219E736F00B5BEDF /* TJ_MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C86CAE0219E736F00B5BEDF /* TJ_MainTabBarViewController.m */; };
+		3C86CAE4219E739400B5BEDF /* TJ_MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C86CAE3219E739400B5BEDF /* TJ_MainNavigationController.m */; };
 		3CA860C621994ACC009297D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA860C521994ACC009297D1 /* AppDelegate.m */; };
-		3CA860C921994ACC009297D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA860C821994ACC009297D1 /* ViewController.m */; };
 		3CA860CC21994ACC009297D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CA860CA21994ACC009297D1 /* Main.storyboard */; };
 		3CA860CE21994ACE009297D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CA860CD21994ACE009297D1 /* Assets.xcassets */; };
 		3CA860D121994ACE009297D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CA860CF21994ACE009297D1 /* LaunchScreen.storyboard */; };
 		3CA860D421994ACE009297D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA860D321994ACE009297D1 /* main.m */; };
 		3CA860DE21994ACE009297D1 /* ShoppingCenterTwoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA860DD21994ACE009297D1 /* ShoppingCenterTwoTests.m */; };
 		3CA860E921994ACE009297D1 /* ShoppingCenterTwoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA860E821994ACE009297D1 /* ShoppingCenterTwoUITests.m */; };
+		3CA8610721995FAB009297D1 /* TJ_BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8610621995FAB009297D1 /* TJ_BasicViewController.m */; };
+		3CA8610A21995FE5009297D1 /* TJ_BasicNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8610921995FE5009297D1 /* TJ_BasicNavigationController.m */; };
+		3CA8610D21996024009297D1 /* TJ_BasicTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8610C21996024009297D1 /* TJ_BasicTabBarController.m */; };
+		3CA86110219961A6009297D1 /* TJ_BasicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8610F219961A6009297D1 /* TJ_BasicView.m */; };
+		3CA86113219961C0009297D1 /* TJ_BasicLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA86112219961C0009297D1 /* TJ_BasicLabel.m */; };
+		3CA86116219961D3009297D1 /* TJ_BasicButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA86115219961D3009297D1 /* TJ_BasicButton.m */; };
+		3CA86119219961FA009297D1 /* TJ_BasicTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA86118219961FA009297D1 /* TJ_BasicTextField.m */; };
+		3CA861222199634E009297D1 /* TJ_LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA861212199634E009297D1 /* TJ_LogInViewController.m */; };
+		3CA86125219963EA009297D1 /* TJ_RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA86124219963EA009297D1 /* TJ_RegisterViewController.m */; };
+		3CA8612B219970E9009297D1 /* TJ_CustomTextfield.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8612A219970E9009297D1 /* TJ_CustomTextfield.m */; };
+		3CA86132219A9BCC009297D1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3CA86134219A9BCC009297D1 /* Localizable.strings */; };
+		3CA86138219BB2D2009297D1 /* TJ_CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA86137219BB2D2009297D1 /* TJ_CustomButton.m */; };
+		69D59CC251F4B3C7862D6C9A /* libPods-ShoppingCenterTwo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A21F32DB361F97E0C2D5BCEB /* libPods-ShoppingCenterTwo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +60,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C7A7F50219D0BA5000F6C3E /* TJ_CustomLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJ_CustomLabel.h; sourceTree = "<group>"; };
+		3C7A7F51219D0BA5000F6C3E /* TJ_CustomLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJ_CustomLabel.m; sourceTree = "<group>"; };
+		3C7A7F54219D3F5C000F6C3E /* icon_user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_user.png; sourceTree = "<group>"; };
+		3C7A7F55219D3F5C000F6C3E /* icon_user@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_user@3x.png"; sourceTree = "<group>"; };
+		3C7A7F56219D3F5C000F6C3E /* icon_user@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_user@2x.png"; sourceTree = "<group>"; };
+		3C7A7F5A219D3FBB000F6C3E /* icon_password@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_password@3x.png"; sourceTree = "<group>"; };
+		3C7A7F5B219D3FBB000F6C3E /* icon_password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_password.png; sourceTree = "<group>"; };
+		3C7A7F5C219D3FBB000F6C3E /* icon_password@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_password@2x.png"; sourceTree = "<group>"; };
+		3C7A7F61219D48CE000F6C3E /* MBProgressHUD+Nero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Nero.h"; sourceTree = "<group>"; };
+		3C7A7F62219D48CE000F6C3E /* MBProgressHUD+Nero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Nero.m"; sourceTree = "<group>"; };
+		3C7A7F64219D77BA000F6C3E /* TJ_VerificationCodeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJ_VerificationCodeButton.h; sourceTree = "<group>"; };
+		3C7A7F65219D77BA000F6C3E /* TJ_VerificationCodeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJ_VerificationCodeButton.m; sourceTree = "<group>"; };
+		3C7A7F67219E5C7C000F6C3E /* TJ_ClauseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJ_ClauseViewController.h; sourceTree = "<group>"; };
+		3C7A7F68219E5C7C000F6C3E /* TJ_ClauseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJ_ClauseViewController.m; sourceTree = "<group>"; };
+		3C7A7F6A219E61CF000F6C3E /* TJ_RetrievePasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJ_RetrievePasswordViewController.h; sourceTree = "<group>"; };
+		3C7A7F6B219E61CF000F6C3E /* TJ_RetrievePasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJ_RetrievePasswordViewController.m; sourceTree = "<group>"; };
+		3C86CADF219E736F00B5BEDF /* TJ_MainTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJ_MainTabBarViewController.h; sourceTree = "<group>"; };
+		3C86CAE0219E736F00B5BEDF /* TJ_MainTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJ_MainTabBarViewController.m; sourceTree = "<group>"; };
+		3C86CAE2219E739400B5BEDF /* TJ_MainNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJ_MainNavigationController.h; sourceTree = "<group>"; };
+		3C86CAE3219E739400B5BEDF /* TJ_MainNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJ_MainNavigationController.m; sourceTree = "<group>"; };
 		3CA860C121994ACC009297D1 /* ShoppingCenterTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingCenterTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CA860C421994ACC009297D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3CA860C521994ACC009297D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3CA860C721994ACC009297D1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3CA860C821994ACC009297D1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3CA860CB21994ACC009297D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CA860CD21994ACE009297D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CA860D021994ACE009297D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +94,38 @@
 		3CA860E421994ACE009297D1 /* ShoppingCenterTwoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingCenterTwoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CA860E821994ACE009297D1 /* ShoppingCenterTwoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingCenterTwoUITests.m; sourceTree = "<group>"; };
 		3CA860EA21994ACE009297D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CA860FB2199513A009297D1 /* TJ_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJ_PrefixHeader.pch; sourceTree = "<group>"; };
+		3CA860FC21995322009297D1 /* TJ_CommonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJ_CommonMacro.h; sourceTree = "<group>"; };
+		3CA860FD219957D0009297D1 /* TJ_Motif.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJ_Motif.h; sourceTree = "<group>"; };
+		3CA8610521995FAB009297D1 /* TJ_BasicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJ_BasicViewController.h; sourceTree = "<group>"; };
+		3CA8610621995FAB009297D1 /* TJ_BasicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJ_BasicViewController.m; sourceTree = "<group>"; };
+		3CA8610821995FE5009297D1 /* TJ_BasicNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJ_BasicNavigationController.h; sourceTree = "<group>"; };
+		3CA8610921995FE5009297D1 /* TJ_BasicNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJ_BasicNavigationController.m; sourceTree = "<group>"; };
+		3CA8610B21996024009297D1 /* TJ_BasicTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJ_BasicTabBarController.h; sourceTree = "<group>"; };
+		3CA8610C21996024009297D1 /* TJ_BasicTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJ_BasicTabBarController.m; sourceTree = "<group>"; };
+		3CA8610E219961A6009297D1 /* TJ_BasicView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJ_BasicView.h; sourceTree = "<group>"; };
+		3CA8610F219961A6009297D1 /* TJ_BasicView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJ_BasicView.m; sourceTree = "<group>"; };
+		3CA86111219961C0009297D1 /* TJ_BasicLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJ_BasicLabel.h; sourceTree = "<group>"; };
+		3CA86112219961C0009297D1 /* TJ_BasicLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJ_BasicLabel.m; sourceTree = "<group>"; };
+		3CA86114219961D3009297D1 /* TJ_BasicButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJ_BasicButton.h; sourceTree = "<group>"; };
+		3CA86115219961D3009297D1 /* TJ_BasicButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJ_BasicButton.m; sourceTree = "<group>"; };
+		3CA86117219961FA009297D1 /* TJ_BasicTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJ_BasicTextField.h; sourceTree = "<group>"; };
+		3CA86118219961FA009297D1 /* TJ_BasicTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJ_BasicTextField.m; sourceTree = "<group>"; };
+		3CA861202199634E009297D1 /* TJ_LogInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJ_LogInViewController.h; sourceTree = "<group>"; };
+		3CA861212199634E009297D1 /* TJ_LogInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJ_LogInViewController.m; sourceTree = "<group>"; };
+		3CA86123219963EA009297D1 /* TJ_RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJ_RegisterViewController.h; sourceTree = "<group>"; };
+		3CA86124219963EA009297D1 /* TJ_RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJ_RegisterViewController.m; sourceTree = "<group>"; };
+		3CA86129219970E9009297D1 /* TJ_CustomTextfield.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJ_CustomTextfield.h; sourceTree = "<group>"; };
+		3CA8612A219970E9009297D1 /* TJ_CustomTextfield.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJ_CustomTextfield.m; sourceTree = "<group>"; };
+		3CA8612E219A9B55009297D1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		3CA8612F219A9B55009297D1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		3CA86133219A9BCC009297D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3CA86135219A9BCE009297D1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		3CA86136219BB2D2009297D1 /* TJ_CustomButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJ_CustomButton.h; sourceTree = "<group>"; };
+		3CA86137219BB2D2009297D1 /* TJ_CustomButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJ_CustomButton.m; sourceTree = "<group>"; };
+		55CF46A4E248FF10388C5E92 /* Pods-ShoppingCenterTwo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingCenterTwo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShoppingCenterTwo/Pods-ShoppingCenterTwo.release.xcconfig"; sourceTree = "<group>"; };
+		A21F32DB361F97E0C2D5BCEB /* libPods-ShoppingCenterTwo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShoppingCenterTwo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45B219F300AFDB3612AAE6E /* Pods-ShoppingCenterTwo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingCenterTwo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShoppingCenterTwo/Pods-ShoppingCenterTwo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69D59CC251F4B3C7862D6C9A /* libPods-ShoppingCenterTwo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +154,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C7A7F53219D3F40000F6C3E /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				3C7A7F54219D3F5C000F6C3E /* icon_user.png */,
+				3C7A7F56219D3F5C000F6C3E /* icon_user@2x.png */,
+				3C7A7F55219D3F5C000F6C3E /* icon_user@3x.png */,
+				3C7A7F5B219D3FBB000F6C3E /* icon_password.png */,
+				3C7A7F5C219D3FBB000F6C3E /* icon_password@2x.png */,
+				3C7A7F5A219D3FBB000F6C3E /* icon_password@3x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		3C7A7F60219D489B000F6C3E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3C7A7F61219D48CE000F6C3E /* MBProgressHUD+Nero.h */,
+				3C7A7F62219D48CE000F6C3E /* MBProgressHUD+Nero.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		3C86CADE219E733C00B5BEDF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3C86CADF219E736F00B5BEDF /* TJ_MainTabBarViewController.h */,
+				3C86CAE0219E736F00B5BEDF /* TJ_MainTabBarViewController.m */,
+				3C86CAE2219E739400B5BEDF /* TJ_MainNavigationController.h */,
+				3C86CAE3219E739400B5BEDF /* TJ_MainNavigationController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		3CA860B821994ACC009297D1 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +194,8 @@
 				3CA860DC21994ACE009297D1 /* ShoppingCenterTwoTests */,
 				3CA860E721994ACE009297D1 /* ShoppingCenterTwoUITests */,
 				3CA860C221994ACC009297D1 /* Products */,
+				8B3227769E11F3C4484EF9EA /* Pods */,
+				CC2CAB651FA5C342ADE10A68 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +212,12 @@
 		3CA860C321994ACC009297D1 /* ShoppingCenterTwo */ = {
 			isa = PBXGroup;
 			children = (
-				3CA860C421994ACC009297D1 /* AppDelegate.h */,
-				3CA860C521994ACC009297D1 /* AppDelegate.m */,
-				3CA860C721994ACC009297D1 /* ViewController.h */,
-				3CA860C821994ACC009297D1 /* ViewController.m */,
-				3CA860CA21994ACC009297D1 /* Main.storyboard */,
-				3CA860CD21994ACE009297D1 /* Assets.xcassets */,
-				3CA860CF21994ACE009297D1 /* LaunchScreen.storyboard */,
-				3CA860D221994ACE009297D1 /* Info.plist */,
-				3CA860D321994ACE009297D1 /* main.m */,
+				3C86CADE219E733C00B5BEDF /* Main */,
+				3CA8611A21996215009297D1 /* LogInAndRegister */,
+				3CA860FE21995DCF009297D1 /* UserCenter */,
+				3CA860F621994CFB009297D1 /* AppDelegate */,
+				3CA860F821994D97009297D1 /* Other */,
+				3CA860F721994D47009297D1 /* Resource */,
 			);
 			path = ShoppingCenterTwo;
 			sourceTree = "<group>";
@@ -132,6 +240,189 @@
 			path = ShoppingCenterTwoUITests;
 			sourceTree = "<group>";
 		};
+		3CA860F621994CFB009297D1 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3CA860C421994ACC009297D1 /* AppDelegate.h */,
+				3CA860C521994ACC009297D1 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		3CA860F721994D47009297D1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3CA860CA21994ACC009297D1 /* Main.storyboard */,
+				3CA860CD21994ACE009297D1 /* Assets.xcassets */,
+				3CA860CF21994ACE009297D1 /* LaunchScreen.storyboard */,
+				3CA860D221994ACE009297D1 /* Info.plist */,
+				3CA860D321994ACE009297D1 /* main.m */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		3CA860F821994D97009297D1 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				3C7A7F60219D489B000F6C3E /* Category */,
+				3CA8610421995EAD009297D1 /* Basic */,
+				3CA860F9219950B8009297D1 /* Config */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		3CA860F9219950B8009297D1 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				3CA860FB2199513A009297D1 /* TJ_PrefixHeader.pch */,
+				3CA860FC21995322009297D1 /* TJ_CommonMacro.h */,
+				3CA860FD219957D0009297D1 /* TJ_Motif.h */,
+				3CA86134219A9BCC009297D1 /* Localizable.strings */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		3CA860FE21995DCF009297D1 /* UserCenter */ = {
+			isa = PBXGroup;
+			children = (
+				3CA8610021995E12009297D1 /* Controller */,
+				3CA8610121995E39009297D1 /* View */,
+				3CA8610221995E44009297D1 /* Model */,
+				3CA8610321995E5B009297D1 /* Resource */,
+			);
+			path = UserCenter;
+			sourceTree = "<group>";
+		};
+		3CA8610021995E12009297D1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3CA8610121995E39009297D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3CA8610221995E44009297D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3CA8610321995E5B009297D1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		3CA8610421995EAD009297D1 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				3CA8610521995FAB009297D1 /* TJ_BasicViewController.h */,
+				3CA8610621995FAB009297D1 /* TJ_BasicViewController.m */,
+				3CA8610821995FE5009297D1 /* TJ_BasicNavigationController.h */,
+				3CA8610921995FE5009297D1 /* TJ_BasicNavigationController.m */,
+				3CA8610B21996024009297D1 /* TJ_BasicTabBarController.h */,
+				3CA8610C21996024009297D1 /* TJ_BasicTabBarController.m */,
+				3CA8610E219961A6009297D1 /* TJ_BasicView.h */,
+				3CA8610F219961A6009297D1 /* TJ_BasicView.m */,
+				3CA86111219961C0009297D1 /* TJ_BasicLabel.h */,
+				3CA86112219961C0009297D1 /* TJ_BasicLabel.m */,
+				3CA86114219961D3009297D1 /* TJ_BasicButton.h */,
+				3CA86115219961D3009297D1 /* TJ_BasicButton.m */,
+				3CA86117219961FA009297D1 /* TJ_BasicTextField.h */,
+				3CA86118219961FA009297D1 /* TJ_BasicTextField.m */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		3CA8611A21996215009297D1 /* LogInAndRegister */ = {
+			isa = PBXGroup;
+			children = (
+				3CA8611F219962E9009297D1 /* UserManage */,
+				3CA8611B21996288009297D1 /* Controller */,
+				3CA8611C219962A6009297D1 /* View */,
+				3CA8611D219962AE009297D1 /* Model */,
+				3CA8611E219962B5009297D1 /* Resource */,
+			);
+			path = LogInAndRegister;
+			sourceTree = "<group>";
+		};
+		3CA8611B21996288009297D1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3CA861202199634E009297D1 /* TJ_LogInViewController.h */,
+				3CA861212199634E009297D1 /* TJ_LogInViewController.m */,
+				3CA86123219963EA009297D1 /* TJ_RegisterViewController.h */,
+				3CA86124219963EA009297D1 /* TJ_RegisterViewController.m */,
+				3C7A7F67219E5C7C000F6C3E /* TJ_ClauseViewController.h */,
+				3C7A7F68219E5C7C000F6C3E /* TJ_ClauseViewController.m */,
+				3C7A7F6A219E61CF000F6C3E /* TJ_RetrievePasswordViewController.h */,
+				3C7A7F6B219E61CF000F6C3E /* TJ_RetrievePasswordViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3CA8611C219962A6009297D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3CA86129219970E9009297D1 /* TJ_CustomTextfield.h */,
+				3CA8612A219970E9009297D1 /* TJ_CustomTextfield.m */,
+				3CA86136219BB2D2009297D1 /* TJ_CustomButton.h */,
+				3CA86137219BB2D2009297D1 /* TJ_CustomButton.m */,
+				3C7A7F50219D0BA5000F6C3E /* TJ_CustomLabel.h */,
+				3C7A7F51219D0BA5000F6C3E /* TJ_CustomLabel.m */,
+				3C7A7F64219D77BA000F6C3E /* TJ_VerificationCodeButton.h */,
+				3C7A7F65219D77BA000F6C3E /* TJ_VerificationCodeButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3CA8611D219962AE009297D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3CA8611E219962B5009297D1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3C7A7F53219D3F40000F6C3E /* Image */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		3CA8611F219962E9009297D1 /* UserManage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UserManage;
+			sourceTree = "<group>";
+		};
+		8B3227769E11F3C4484EF9EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D45B219F300AFDB3612AAE6E /* Pods-ShoppingCenterTwo.debug.xcconfig */,
+				55CF46A4E248FF10388C5E92 /* Pods-ShoppingCenterTwo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC2CAB651FA5C342ADE10A68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A21F32DB361F97E0C2D5BCEB /* libPods-ShoppingCenterTwo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +430,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CA860ED21994ACE009297D1 /* Build configuration list for PBXNativeTarget "ShoppingCenterTwo" */;
 			buildPhases = (
+				733FAE9292B26C1D4653DF8B /* [CP] Check Pods Manifest.lock */,
 				3CA860BD21994ACC009297D1 /* Sources */,
 				3CA860BE21994ACC009297D1 /* Frameworks */,
 				3CA860BF21994ACC009297D1 /* Resources */,
@@ -217,6 +509,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 3CA860B821994ACC009297D1;
 			productRefGroup = 3CA860C221994ACC009297D1 /* Products */;
@@ -235,9 +528,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C7A7F59219D3F5C000F6C3E /* icon_user@2x.png in Resources */,
 				3CA860D121994ACE009297D1 /* LaunchScreen.storyboard in Resources */,
+				3C7A7F5F219D3FBC000F6C3E /* icon_password@2x.png in Resources */,
+				3CA86132219A9BCC009297D1 /* Localizable.strings in Resources */,
+				3C7A7F5E219D3FBC000F6C3E /* icon_password.png in Resources */,
 				3CA860CE21994ACE009297D1 /* Assets.xcassets in Resources */,
+				3C7A7F58219D3F5C000F6C3E /* icon_user@3x.png in Resources */,
+				3C7A7F5D219D3FBC000F6C3E /* icon_password@3x.png in Resources */,
 				3CA860CC21994ACC009297D1 /* Main.storyboard in Resources */,
+				3C7A7F57219D3F5C000F6C3E /* icon_user.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +557,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		733FAE9292B26C1D4653DF8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShoppingCenterTwo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3CA860BD21994ACC009297D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CA860C921994ACC009297D1 /* ViewController.m in Sources */,
+				3CA86125219963EA009297D1 /* TJ_RegisterViewController.m in Sources */,
+				3CA8610A21995FE5009297D1 /* TJ_BasicNavigationController.m in Sources */,
+				3CA86138219BB2D2009297D1 /* TJ_CustomButton.m in Sources */,
+				3C7A7F6C219E61CF000F6C3E /* TJ_RetrievePasswordViewController.m in Sources */,
+				3C7A7F69219E5C7C000F6C3E /* TJ_ClauseViewController.m in Sources */,
+				3C86CAE1219E736F00B5BEDF /* TJ_MainTabBarViewController.m in Sources */,
+				3CA86113219961C0009297D1 /* TJ_BasicLabel.m in Sources */,
+				3CA861222199634E009297D1 /* TJ_LogInViewController.m in Sources */,
+				3C7A7F52219D0BA5000F6C3E /* TJ_CustomLabel.m in Sources */,
+				3CA8612B219970E9009297D1 /* TJ_CustomTextfield.m in Sources */,
+				3CA86110219961A6009297D1 /* TJ_BasicView.m in Sources */,
+				3CA86119219961FA009297D1 /* TJ_BasicTextField.m in Sources */,
+				3CA8610721995FAB009297D1 /* TJ_BasicViewController.m in Sources */,
+				3CA8610D21996024009297D1 /* TJ_BasicTabBarController.m in Sources */,
 				3CA860D421994ACE009297D1 /* main.m in Sources */,
+				3CA86116219961D3009297D1 /* TJ_BasicButton.m in Sources */,
+				3C7A7F66219D77BA000F6C3E /* TJ_VerificationCodeButton.m in Sources */,
+				3C7A7F63219D48CE000F6C3E /* MBProgressHUD+Nero.m in Sources */,
+				3C86CAE4219E739400B5BEDF /* TJ_MainNavigationController.m in Sources */,
 				3CA860C621994ACC009297D1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +642,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				3CA860CB21994ACC009297D1 /* Base */,
+				3CA8612E219A9B55009297D1 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -312,8 +651,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				3CA860D021994ACE009297D1 /* Base */,
+				3CA8612F219A9B55009297D1 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3CA86134219A9BCC009297D1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CA86133219A9BCC009297D1 /* en */,
+				3CA86135219A9BCE009297D1 /* zh-Hans */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -323,6 +672,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -382,6 +732,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -433,11 +784,13 @@
 		};
 		3CA860EE21994ACE009297D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D45B219F300AFDB3612AAE6E /* Pods-ShoppingCenterTwo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G8L2R54WQQ;
-				INFOPLIST_FILE = ShoppingCenterTwo/Info.plist;
+				DEVELOPMENT_TEAM = 582QGU22VB;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ShoppingCenterTwo/Other/Config/TJ_PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/ShoppingCenterTwo/Resource/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,11 +803,13 @@
 		};
 		3CA860EF21994ACE009297D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55CF46A4E248FF10388C5E92 /* Pods-ShoppingCenterTwo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G8L2R54WQQ;
-				INFOPLIST_FILE = ShoppingCenterTwo/Info.plist;
+				DEVELOPMENT_TEAM = 582QGU22VB;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ShoppingCenterTwo/Other/Config/TJ_PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/ShoppingCenterTwo/Resource/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

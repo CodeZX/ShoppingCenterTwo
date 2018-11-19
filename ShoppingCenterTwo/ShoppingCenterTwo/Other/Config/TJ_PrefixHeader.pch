@@ -1,0 +1,28 @@
+//
+//  TJ_PrefixHeader.pch
+//  ShoppingCenterTwo
+//
+//  Created by 周鑫 on 2018/11/12.
+//  Copyright © 2018年 TJ. All rights reserved.
+//
+
+#ifndef TJ_PrefixHeader_pch
+#define TJ_PrefixHeader_pch
+
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+#import <Masonry/Masonry.h>
+#import <JKCategories/JKCategories.h>
+
+
+
+#import "TJ_CommonMacro.h"
+#import "TJ_Motif.h"
+#import "TJ_BasicNavigationController.h"
+#import "TJ_BasicViewController.h"
+#import "MBProgressHUD+Nero.h"
+
+
+
+
+#endif /* TJ_PrefixHeader_pch */

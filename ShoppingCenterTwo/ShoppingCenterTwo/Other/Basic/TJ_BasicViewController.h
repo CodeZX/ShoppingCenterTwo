@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TJ_BasicViewController.h
 //  ShoppingCenterTwo
 //
 //  Created by 周鑫 on 2018/11/12.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface TJ_BasicViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

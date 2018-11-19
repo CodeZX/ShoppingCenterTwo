@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  ShoppingCenterTwo
+
+  Created by 周鑫 on 2018/11/13.
+  Copyright © 2018年 TJ. All rights reserved.
+*/
+
+"logIn" = "logIn";
+"passwordTFPlaceholder" = "Please enter your password";
+"newPasswordTFPlaceholder" = "Please enter your new password";
+"phoneNumberTFPlaceholder" = "Please enter the phone number";
+"forgetPassword" = "forgetPassword";
+"registerBtn" = "registerBtn";
+"LogInError" = "Please enter the number and password";
+"phoneNumberError" = "Invalid mobile phone number ！";
+"passwordError" = "Invalid password ！";
+"Register" = "Register";
+"authCodeTFPlaceholder" = "please enter verification code！";
+"clause" =  "I have agreed and read the 'User Agreement and Privacy Policy'";
+"ClauseVCTitle" = "Privacy and treaties";
+"RetrievePasswordVCTitle" = "RetrievePassword";
+"affirmBtnTitle" = "affirm";

@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "TJ_LogInViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:DEVICE_SCREEN_FRAME];
+    self.window.rootViewController = [[TJ_BasicNavigationController alloc]initWithRootViewController:[[TJ_LogInViewController alloc]init]];
+    [self.window becomeKeyWindow];
     return YES;
 }
 
